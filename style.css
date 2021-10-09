@@ -1,0 +1,44 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif'!important
+}
+
+.title {
+    font-size: 1.7rem!important;
+    font-weight: 1000!important;
+}
+
+.card_na {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px!important;
+    border-radius: 13px;
+    box-shadow: 3px 4px 15px 5px rgb(0,0,0, 0.05);
+    border: 0.5px solid #f2f2f2;
+}
+
+.card_qr {
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 15px!important;
+    border-radius: 13px;
+    box-shadow: 3px 4px 15px 5px rgb(0,0,0, 0.05);
+    border: 0.5px solid #f2f2f2;
+}
+
+h3 {
+    font-weight: 800px;
+}
+
+.subtitle {
+    font-size: 0.2rem;
+}
+
+h5 {
+    font-weight: 800px;
+}
+
+a {text-decoration-line: none!important; color: gray!important;}
+
+
+a {text-decoration-line: none!important; color: gray!important;}
