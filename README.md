@@ -40,4 +40,4 @@
 <a href="mailto:oopseong@oneocloc.kr">메일</a>로 문의해주세요 :)
 # 사용하기
 * <a href="https://oneoclock.kr/harusal2">하루살이 웹버전</a>
-* <a href="https://drive.google.com/file/d/1rqIoR8HWRTS-kKaa0QR6id4l1pf_GwUo/view?usp=sharing">하루살이 안드로이드 앱 다운로드</a>
+* <a href="https://github.com/oopseong/harusal2/releases/tag/new">하루살이 안드로이드 앱 다운로드</a>
