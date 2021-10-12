@@ -1,4 +1,4 @@
-# harusal2
+# harulife
 하루살이는 오늘의 뉴스, 정보, 편의기능을 한번에 보자는 모토로 제작되었습니다.
 
 # 기능
@@ -9,8 +9,6 @@
   * 오늘 날씨, 앞으로 5일의 날씨를 확인해볼 수도 있습니다. 또한 날씨 기사도 확인해보세요. (현재 서울특별시만 지원, 추후 다양한 지역/국가을 지원할 예정입니다.)
 * 라이프 스토리 (오마이뉴스)
   * 사는 이야기를 들어보세요. 여러 생활 팁들과 살아가며 느끼는 이야기 등 많은 이야기들이 있습니다.
-* 코로나19
-  * 코로나19 총확진자, 격리해제, 사망자를 확인할 수 있습니다.
 ## 편의기능
 * QR체크인 바로가기 
   * QR체크인에 바로 접근할 수 있습니다. (네이버 QR체크인 바로가기)
@@ -42,4 +40,5 @@
 <a href="mailto:oopseong@oneocloc.kr">메일</a>로 문의해주세요 :)
 # 사용하기
 * <a href="https://oneoclock.kr/harusal2">하루살이 웹버전</a>
-* <a href="https://github.com/oopseong/harusal2/releases/tag/new">하루살이 안드로이드 앱 다운로드</a>
+* * <a href="https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000758567">하루살이 안드로이드 앱 다운로드 (원스토어, 권장)</a>
+* <a href="https://github.com/oopseong/harusal2/releases/tag/new">하루살이 안드로이드 앱 다운로드 (apk, 비권장)</a>
