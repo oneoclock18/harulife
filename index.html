@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>하루라이프</title>
-        <link rel="stylesheet" href="style.css?ver=3">
+        <link rel="stylesheet" href="style.css?ver=4">
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -18,38 +18,41 @@
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <div class="container-sm">
             <p class="title mt-5 mb-3">
                 오늘의 새로운<br>
-                최신 소식을 보여드려요.
+                최신 소식을 보여드릴께요.
             </p>
             <div style="height: 7px;"></div>
-            <div class="card_qr mb-4">
-                <div class="container-sm ">
-                    <div class="d-flex justify-content-between">
-                        <h5>
-                            <a href="https://nid.naver.com/login/privacyQR">
-                                <i class="fas fa-qrcode" style="color: black;"></i>&nbsp;
-                                <b style="color: black;">QR 체크인</b>
-                            </a>
-                        </h5>
-                        <h5>
-                            <a href="https://nid.naver.com/login/privacyQR">
-                                <i class="fas fa-arrow-right" style="color: black;"></i>
-                            </a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
+           
             <div class="card_na mb-4">
                 <div class="container-sm">
-                    <h5 style="font-weight: 800px;">
-                        <?php 
-                 echo "📅 ".date('n')."월 ".date('j')."일"."의 소식";
-            ?>
+                    <h5 id="clock" style="color:black;">clock</h5>
+    
+    <script>
+        var Target = document.getElementById("clock");
+        function clock() {
+            var time = new Date();
+
+            var month = time.getMonth();
+            var date = time.getDate();
+            var day = time.getDay();
+            var week = ['일', '월', '화', '수', '목', '금', '토'];
+
+            var hours = time.getHours();
+            var minutes = time.getMinutes();
+            var seconds = time.getSeconds();
+
+            Target.innerText = 
+            `🗓️ ${month + 1}월 ${date}일 ${week[day]}요일의 소식`
+                
+        }
+        clock();
+        setInterval(clock, 1000); // 1초마다 실행
+    </script>
                     </h5>
                     <p style="font-size: 12px; color: gray;">제공 : 연합뉴스</p>
                     <!-- start sw-rss-feed code -->
@@ -345,11 +348,11 @@
             <p style="font-size: 10px; color: gray;">© 2021. OOPSEONG. All rights reserved.<br>
                 <a href="https://toss.me/oopseong">후원하기</a>
                 |
-                <a href="mailto:peuritty@gmail.com">문의하기</a>
-                |
-                <a href="http://notice.harusal2.kd.gy/">공지사항</a>
+                <a href="mailto:b_ack2@naver.com">문의하기</a>
             </p>
         </center>
+
+        </div>
         <div class="mb-2"></div>
         <script src="script.js?ver=1"></script>
         <script
