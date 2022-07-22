@@ -39,6 +39,6 @@
 ## 오류 제보 및 건의
 <a href="mailto:oopseong@oneocloc.kr">메일</a>로 문의해주세요 :)
 # 사용하기
-* <a href="https://harulife.oneoclock.kr/">하루라이프 웹버전</a>
+* <a href="https://seongpark.github.io/Harulife/">하루라이프 웹버전</a>
 * <a href="https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000758567">하루라이프 안드로이드 앱 다운로드 (원스토어, 권장)</a>
 * <a href="https://github.com/oopseong/harusal2/releases/">하루라이프 안드로이드 앱 다운로드 (apk, 비권장)</a>
