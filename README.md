@@ -37,7 +37,7 @@
   * 게시물 이미지, 프로필 이미지 업로드를 위하여 카메라 권한을 사용합니다.
 * 만약 권한을 거부하여도 앱 사용에 문제가 없지만, 만약 권한이 필요할 경우 따로 설정->애플리케이션->하루라이프->권한에서 권한 동의를 해주셔야 합니다.
 ## 오류 제보 및 건의
-<a href="mailto:oopseong@oneocloc.kr">메일</a>로 문의해주세요 :)
+<a href="mailto:b_ack2@naver.com">메일</a>로 문의해주세요 :)
 # 사용하기
 * <a href="https://seongpark.github.io/Harulife/">하루라이프 웹버전</a>
 * <a href="https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000758567">하루라이프 안드로이드 앱 다운로드 (원스토어, 권장)</a>
